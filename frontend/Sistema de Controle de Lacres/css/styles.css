@@ -1,3 +1,134 @@
 h1 {
-    color: red;
+  margin-top: 10px;
+  color: #006fc8;
+  font-style: italic;
+}
+
+.img_login {
+  background-image: url("../img/0a1a0635___20211615597.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.login_form {
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+.cc_logo {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cc_form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+.button_submit {
+  margin-top: 10px;
+  text-align: center;
+  align-self: center;
+}
+
+.user-input {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-around;
+  padding: 10px;
+}
+
+button {
+  width: 95%;
+  background-color: #009039;
+  color: white;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+  transition-duration: 1s;  /* Define a transição suave */
+}
+
+button:hover {
+  background-color: #006fc8; /* Substitua pela cor desejada */
+  color: #ffffff; /* Substitua pela cor desejada */
+
+}
+
+input {
+  padding: 3px;
+  border-radius: 05px;
+  border-top: 0;
+  border-left: 0;
+}
+
+label {
+  color: #006ec8;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.logo-sb {
+  display: flex;
+  height: auto;
+  align-self: center;
+}
+
+@media (max-width: 785px) {
+  .login_form {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    margin-top: 5px;
+    color: #006ec8;
+  }
+
+  .cc_form {
+    margin-top: 0;
+  }
 }
